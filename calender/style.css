@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.title {
+  width: 100%;
+  height: 12rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+}
+.title h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+.calendar {
+  width: 45rem;
+  height: 52rem;
+}
+.war {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+}
+
+.war div {
+  border: 1px solid black;
+  width: calc(40.2rem / 7);
+  display: flex;
+  text-align: center;
+  height: 4rem;
+  justify-content: center;
+  align-content: center;
+  font-size: 1rem;
+}
+.numbers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers div {
+  width: calc(40.2rem / 7);
+  height: 4rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-date,
+.next-date {
+  opacity: 1;
+  color: white;
+}
